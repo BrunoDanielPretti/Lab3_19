@@ -1,0 +1,16 @@
+:root {
+    --bg-color-main: rgb(34, 33, 32);
+    --bg-color-claro: #8d78559d;
+
+    --font-color-main:   #bebebe;
+    --font-color-sec:    #c9c6c6;
+    --font-color-yellow: #c4a337;
+    --font-color-red:    #8f2c2c;
+    --font-color-blue:   #2e3b85;
+
+    --borde-color: rgb(73, 65, 56);
+}
+body{
+    background-color: var(--bg-color-main);
+    color: var(--font-color-main);
+}
