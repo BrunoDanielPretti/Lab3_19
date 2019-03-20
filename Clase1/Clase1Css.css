@@ -1,0 +1,15 @@
+h1:hover, h2:hover, h3:hover, h4:hover, .HoverBlock:hover{
+    background-color: var(--bg-color-claro);
+    color: var(--font-color-sec);
+}
+
+table{
+    background-color: #302c27;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+td, th{
+    border: 1px;
+    border-style: solid;
+    border-color: var(--border-color);
+}

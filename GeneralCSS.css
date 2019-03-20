@@ -1,16 +1,19 @@
 :root {
-    --bg-color-main: rgb(34, 33, 32);
-    --bg-color-claro: #8d78559d;
+    --bg-color-main:     #222120;
+    --bg-color-claro:    #8d78559d;
 
     --font-color-main:   #bebebe;
     --font-color-sec:    #c9c6c6;
-    --font-color-yellow: #c4a337;
-    --font-color-red:    #8f2c2c;
-    --font-color-blue:   #2e3b85;
+    --font-color-yellow: #e8be35;
+    --font-color-red:    #f15c5c;
+    --font-color-blue:   #6273ff;
+    --font-color-green:  #68c349;
 
-    --borde-color: rgb(73, 65, 56);
+    --border-color:       #494138;
 }
+
 body{
     background-color: var(--bg-color-main);
     color: var(--font-color-main);
 }
+
