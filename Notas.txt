@@ -2,3 +2,4 @@ mariano_mutti@yahoo.com.ar #Mail de Mariano
 electron framework web multiplataforma
 https://docs.emmet.io/
 https://www.pexels.com/   Fotos Libres
+live server  - Actualizacion automatica del navegador

@@ -1,6 +1,8 @@
 :root {
     --bg-color-main:     #222120;
-    --bg-color-claro:    #8d78559d;
+    --bg-color-claro:    #6b5a3f;
+    --bg-color-dark:     #151413;
+    --bg-color-trans:    #8d78559d;
 
     --font-color-main:   #bebebe;
     --font-color-sec:    #c9c6c6;
@@ -8,12 +10,52 @@
     --font-color-red:    #f15c5c;
     --font-color-blue:   #6273ff;
     --font-color-green:  #68c349;
+    --font-color-SkyBlue:#6ce1ff;
+    --font-color-link:   #7381f9;
 
-    --border-color:       #494138;
+    --border-color:      #494138;
+    --border-color-claro:#7f6c58;
+    --select-color-yellow: #e29f25;;
+}
+
+::selection{
+    background: var(--bg-color-trans);
+    color: var(--font-color-sec);
 }
 
 body{
     background-color: var(--bg-color-main);
     color: var(--font-color-main);
+}
+
+a, a:-webkit-any-link{
+    color: var(--font-color-link);
+}
+
+.panel{
+    background-color: var(--bg-color-claro);
+}
+
+.btn{         
+        background-image:         linear-gradient(to bottom, #4d4432 0%, #423928 100%);     
+        background-repeat: repeat-x;        
+        border-color: var(--border-color-claro);
+        color: var(--font-color-main);
+        height: 31px;
+        border-radius: 5px;
+}
+
+input{
+    background-color: var(--bg-color-dark);
+    color: var(--font-color-main);
+    border-color: var(--border-color);
+    border-style: groove;
+}
+
+input:focus{
+    outline-color: var(--select-color-yellow);
+}
+input:active{    
+    border-style: inset;
 }
 

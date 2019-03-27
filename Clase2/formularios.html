@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="..\GeneralCSS.css">
+    <title>Clase 2 - Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <form id="frm_1" action="#" method="get">
+        <label for="txt1">TextBox 1:   </label>
+        <input type="text" name="" id="txt1" name="TextBox_1" placeholder="Ingrese su nombre" required>
+        <br>
+        <label for="txt2">TextBox 2:   </label>
+        <input type="password" name="" id="txt2" name="TextBox_2" placeholder="Ingrese su clave">
+        <br>
+        <br>
+
+        <input class="btn" type="button" value="Boton1 (input)">
+        <input class="btn" type="submit">
+        <input class="btn" type="reset">
+        <button class="btn">Boton (button)</button>
+        <input class="btn" type="button" value="Boton Script" onclick="brn_click()">
+
+        <script>
+
+            var TextBox_1 = document.getElementById("txt1");
+            var frm = document.getElementById("frm_1");
+            frm.addEventListener("submit", function (e) {
+                console.log(e);
+            });
+
+        </script>
+    </form>
+
+    <br>
+    <br>
+    <p>-------------------------------------------------------------------------------------</p>
+    <p>Reset (restablecer): restablece todos los input del formulario</p>
+</body>
+
+</html>
