@@ -1,0 +1,28 @@
+
+table, th, tr, td{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #ff10103a;
+    transition:  background-color 1s;
+}
+
+
+
+td{
+    height: 50px;
+    text-align: center;    
+}
+
+th{
+    padding: 10px;
+}
+tr:hover{
+    background-color: rgb(0, 245, 10);
+}
+
+table{
+    width: 2000px;
+}
