@@ -2,6 +2,7 @@
     --bg-color-main:     #222120;
     --bg-color-claro:    #6b5a3f;
     --bg-color-dark:     #151413;
+    --bg-color-dk-cl:    #1b1a19;
     --bg-color-trans:    #8d78559d;
 
     --font-color-main:   #bebebe;
@@ -57,5 +58,20 @@ input:focus{
 }
 input:active{    
     border-style: inset;
+}
+
+table, td, th{
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    background-color: var(--bg-color-dark);
+}
+
+td{
+    text-align: center;
+}
+
+tr:hover, tr:hover td{
+    background-color: var(--bg-color-dk-cl);
+    color: var(--font-color-sec);
 }
 
