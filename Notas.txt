@@ -5,3 +5,4 @@ https://www.pexels.com/   Fotos Libres
 live server  - Actualizacion automatica del navegador
 Font Awesome - iconitos vectoriales
 https://mockaroo.com/  - Para generar datos
+https://icons8.com/preloaders/ - Spiners

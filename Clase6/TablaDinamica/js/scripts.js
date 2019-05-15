@@ -39,7 +39,16 @@ function Tabla_Cargar(){
             var celda = document.createElement('td');
             //celda.setAttribute('style', 'text-align:center');
             var dato  = document.createTextNode( parametro[i][j] );
-            celda.appendChild(dato);
+            //celda.appendChild(dato);
+            
+            if(j=="avatar"){                                
+                var imagen = document.createElement('img');
+                imagen.setAttribute("src", parametro[i][j]);
+                celda.appendChild(imagen);
+            }else{
+                celda.appendChild(dato);
+            }
+
             fila.appendChild(celda);
 
             
