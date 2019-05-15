@@ -2,12 +2,9 @@ window.addEventListener('load', inicializarEventos);
 
 function inicializarEventos(){
     document.getElementById("btn_tabla").addEventListener('click', Tabla_Cargar);
+
+    
 }
-
-
-
-
-
 
 function Tabla_Cargar(){
     console.log("Tabla_Cargar");

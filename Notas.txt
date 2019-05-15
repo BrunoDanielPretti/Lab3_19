@@ -6,3 +6,6 @@ live server  - Actualizacion automatica del navegador
 Font Awesome - iconitos vectoriales
 https://mockaroo.com/  - Para generar datos
 https://icons8.com/preloaders/ - Spiners
+
+
+Lo de people.json hay q poner en string los active  (los True y False)
