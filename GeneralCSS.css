@@ -37,7 +37,7 @@ a, a:-webkit-any-link{
     background-color: var(--bg-color-claro);
 }
 
-.btn{         
+.btn-br{         
         background-image:         linear-gradient(to bottom, #4d4432 0%, #423928 100%);     
         background-repeat: repeat-x;        
         border-color: var(--border-color-claro);

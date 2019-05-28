@@ -9,3 +9,9 @@ https://icons8.com/preloaders/ - Spiners
 
 
 Lo de people.json hay q poner en string los active  (los True y False)
+
+
+//---------- YARN -------------//
+npm install yarn -g  //instala Yarn de manera global
+yarn init  // yarin init -y
+yarn install  //Instala las dependencias
