@@ -17,3 +17,5 @@ yarn init  // yarin init -y
 yarn install  //Instala las dependencias
 
 npm install font-awesome --save  //lo agrega al packaje.json
+
+yarn add jquery
