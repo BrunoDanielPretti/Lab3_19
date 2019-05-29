@@ -15,3 +15,5 @@ Lo de people.json hay q poner en string los active  (los True y False)
 npm install yarn -g  //instala Yarn de manera global
 yarn init  // yarin init -y
 yarn install  //Instala las dependencias
+
+npm install font-awesome --save  //lo agrega al packaje.json

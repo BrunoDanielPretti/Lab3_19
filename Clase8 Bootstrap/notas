@@ -6,3 +6,5 @@ ej. col-md-6
 <576    xs
 
 w-100 //rellena el resto de la row
+
+align-item-start // para las row   -start -center -end
